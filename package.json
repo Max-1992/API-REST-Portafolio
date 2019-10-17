@@ -1,0 +1,21 @@
+{
+    "name": "udemy-proyect",
+    "version": "1.0.0",
+    "description": "api-rest del master de js",
+    "main": "server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cross-env": "^6.0.3",
+        "dotenv": "^8.1.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.7.5"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.3"
+    }
+}
